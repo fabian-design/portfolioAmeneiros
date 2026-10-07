@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio profesional de Fabian Ameneiros: docencia en informática, programación, bases de datos y soporte técnico.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Fabian Ameneiros | Informática, Docencia y Desarrollo</title>
+
+</head>
+
+<body>
+    <!-- INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1 class="marca">FA<span>.</span></h1>
+
+                    <!-- BARRA DE NAVEGACION -->
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">Sobre mí</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Proyectos</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- ICONOS DE REDES SOCIALES-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.youtube.com/@fabianameneiros" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/FabianAmeneirosA" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/fabianameneirosa" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Portfolio profesional</p>
+                <h2>Fabian Ameneiros<span class="subtitulo-hero">Docencia · Desarrollo de software · Soporte técnico</span></h2>
+                <p class="descripcion">Conecto la enseñanza con la práctica: desarrollo proyectos, enseño programación y bases de datos, y trabajo en reparación de dispositivos.</p>
+                <div class="acciones-hero"><a href="#portfolio">Ver proyectos</a><a class="boton-secundario" href="#contacto">Contactarme</a></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/traje_1.png" alt="Retrato profesional de Fabian Ameneiros" loading="lazy">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mí</p>
+            <h2>Hola, Soy <span>Fabian Ameneiros</span></h2>
+            <h3>Docente en informática y estudiante de Analista en Informática</h3>
+            <p>
+                Actualmente me desempeño como docente en EDDIS Educativa y en el Centro de Formación Laboral El Salvador. Mi trabajo combina la enseñanza práctica, el desarrollo de proyectos y la resolución de problemas tecnológicos.
+            </p>
+            <p>Estoy cursando la carrera de Analista en Informática en la Universidad Nacional del Oeste. Me interesa construir soluciones útiles, explicar conceptos con claridad y seguir creciendo en el área de sistemas.
+
+            </p>
+            <a href="Fabian%20Ameneiros.pdf" target="_blank" rel="noopener">Ver currículum</a>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">ÁREAS DE TRABAJO</h3>
+        <div class="fila">
+            <!--1-->
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Programación</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Mobile</li>
+                    <li>Back End</li>
+                </ul>
+                <p>Aprendizaje de lógica de programación, resolución de problemas y desarrollo de aplicaciones y sitios
+                    web utilizando diferentes lenguajes y tecnologías.</p>
+            </div>
+            <!--2-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Reparación de celulares</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Hardware</li>
+                    <li>Software</li>
+                    <li>Esquemáticos</li>
+                </ul>
+                <p>Detección y solución de fallas en dispositivos móviles, reparación de componentes y manejo de
+                    software para optimizar el funcionamiento del equipo.
+                </p>
+            </div>
+            <!--3-->
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Excel</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Básico</li>
+                    <li>Intermedio</li>
+                    <li>Avanzado</li>
+                </ul>
+                <p>Manejo de hojas de cálculo, uso de fórmulas y funciones, creación de gráficos y análisis de datos
+                    para mejorar la organización y la toma de decisiones.
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            
+            <div class="servicio"> <!--4-->
+                <span class="icono"><i class="fa-solid fa-laptop"></i></span>
+                <h4>Reparación de computadoras</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Diagnóstico</li>
+                    <li>Hardware</li>
+                    <li>Software</li>
+                </ul>
+                <p>Identificación de fallas, mantenimiento y orientación para resolver problemas habituales de computadoras.</p>
+            </div>
+            <!--5-->
+            <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-database"></i></span>
+            <h4>Bases de datos</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>SQL</li>
+                <li>Modelado</li>
+                <li>Consultas</li>
+            </ul>
+            <p>Diseño de tablas, relaciones y consultas para organizar información y dar soporte a aplicaciones.</p>
+            </div>
+            <!--6-->
+            <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-chalkboard-user"></i></span>
+            <h4>Clases particulares</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Informática</li>
+                <li>Programación</li>
+                <li>SQL</li>
+            </ul>
+            <p>Clases presenciales orientadas a la práctica, con ejercicios guiados y desarrollo de proyectos paso a paso.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Excel</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Base de Datos</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Programacion</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>ingles</p>
+                <span class="porcentaje">65%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        
+        <div class="fila"> <!--FILA 1-->
+            <div class="proyecto">
+                <a href="https://fabian-design.github.io/surViajes" target="_blank" class="link-proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto1.jpg" alt="Proyecto Sur Viajes" loading="lazy">
+                    <div class="info">
+                        <h4>Proyecto</h4>
+                        <p>Sur Viajes</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://fabian-design.github.io/elysium" target="_blank" class="link-proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto2.jpg" alt="Proyecto Elysium" loading="lazy">
+                    <div class="info">
+                        <h4>Proyecto</h4>
+                        <p>Elysium</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://fabian-design.github.io/taller_alumnos" target="_blank" class="link-proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto3.jpg" alt="Proyecto Taller de Alumnos" loading="lazy">
+                    <div class="info">
+                        <h4>Proyecto</h4>
+                        <p>Taller Alumnos</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="fila"> <!--FILA 2-->
+            <div class="proyecto">
+                <a href="https://inventariofabian.rf.gd" target="_blank" class="link-proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto4.jpg" alt="Sistema de inventario" loading="lazy">
+                    <div class="info">
+                        <h4>Proyecto</h4>
+                        <p>Inventario</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://buffet.free.nf" target="_blank" class="link-proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto5.jpg" alt="Galería de productos" loading="lazy">
+                    <div class="info">
+                        <h4>Proyecto</h4>
+                        <p>Galeria de Productos</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="https://ludicis.free.nf" target="_blank" class="link-proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto6.jpg" alt="Proyecto Ludicis" loading="lazy">
+                    <div class="info">
+                        <h4>Proyecto</h4>
+                        <p>Casino</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="fila"> <!--FILA 3-->
+            <div class="proyecto">
+                <a href="https://fabian-design.github.io/microprocessors" target="_blank" class="link-proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto7.jpg" alt="Proyecto Microprocessors" loading="lazy">
+                    <div class="info">
+                        <h4>Proyecto</h4>
+                        <p>Microprocessors</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="#contacto" class="link-proyecto" aria-label="Consultar por este proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto8.jpg" alt="Captura del proyecto web 8" loading="lazy">
+                    <div class="info">
+                        <h4>Proyecto</h4>
+                        <p>Proyecto web</p>
+                    </div>
+                </a>
+            </div>
+            <div class="proyecto">
+                <a href="#contacto" class="link-proyecto" aria-label="Consultar por este proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto9.jpg" alt="Captura del proyecto web 9" loading="lazy">
+                    <div class="info">
+                        <h4>Proyecto</h4>
+                        <p>Proyecto web</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form id="form-contacto">
+
+                <div class="fila mitad">
+                    <input type="text" name="nombre" placeholder="Nombre completo *" class="input-mitad" autocomplete="name" required>
+                    <input type="email" name="email" placeholder="Correo electrónico *" class="input-mitad" autocomplete="email" required>
+                </div>
+
+                <div class="fila">
+                    <input type="text" name="tema" placeholder="Asunto" class="input-full">
+                </div>
+
+                <div class="fila">
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="6" placeholder="Contame brevemente en qué puedo ayudarte..." class="input-full" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Preparar mensaje</button>
+                <p class="nota-formulario">Se abrirá tu aplicación de correo para que puedas revisar y enviar el mensaje.</p>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© <span id="anio"></span> Fabian Ameneiros · Portfolio profesional</p>
+        <div class="redes">
+            <a href="https://www.youtube.com/@fabianameneiros" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/FabianAmeneirosA/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/fabianameneirosa/"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="js/script.js" defer></script>
+
+</body>
+
+</html>
