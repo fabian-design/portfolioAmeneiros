@@ -284,10 +284,8 @@
             font-size: 14px;
             line-height: 22px;
         }
-        /* *********************/
-        /* seccion S K I L L S */
-        /* *********************/
-        
+
+        /* SKILLS */
         .contenedor-skills {
             background: linear-gradient( rgba(15, 23, 42, 0.78), rgba(15, 23, 42, 0.82)), url("img/fondo-skills.jpg");
             background-attachment: fixed;
